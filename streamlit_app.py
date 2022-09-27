@@ -33,6 +33,7 @@ try:
    back_from_function=get_fruitvice_data(fruit_choice)
    streamlit.dataframe(back_from_function)
 except urlError as e:
+ streamlit.text('HI I am here')
  streamlit.error()
 
 def get_fruit_load_list():
