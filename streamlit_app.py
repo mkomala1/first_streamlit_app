@@ -38,8 +38,8 @@ try:
 # write your own comment - what does this do?
     back_from_function=get_fruitvice_data(fruit_choice)
     streamlit.dataframe(back_from_function)
-except urlError as e:
-  streamlit.error()
+#except urlError as e:
+ # streamlit.error()
 #streamlit.stop()
 
 
